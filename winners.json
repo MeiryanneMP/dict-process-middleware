@@ -28,7 +28,15 @@
     "year": 1986
   },
   {
-    "producer": "Bob Cavallo, Joe Ruffalo and Steve Fargnoli",
+    "producer": "Bob Cavallo",
+    "year": 1986
+  },
+  {
+    "producer": "Joe Ruffalo",
+    "year": 1986
+  },
+  {
+    "producer": "Steve Fargnoli",
     "year": 1986
   },
   {
@@ -36,7 +44,11 @@
     "year": 1987
   },
   {
-    "producer": "Ted Field and Robert W. Cort",
+    "producer": "Ted Field",
+    "year": 1988
+  },
+  {
+    "producer": "Robert W. Cort",
     "year": 1988
   },
   {
@@ -44,7 +56,11 @@
     "year": 1989
   },
   {
-    "producer": "Steven Perry and Joel Silver",
+    "producer": "Steven Perry",
+    "year": 1990
+  },
+  {
+    "producer": "Joel Silver",
     "year": 1990
   },
   {
@@ -56,7 +72,11 @@
     "year": 1991
   },
   {
-    "producer": "Carol Baum and Howard Rosenman",
+    "producer": "Carol Baum",
+    "year": 1992
+  },
+  {
+    "producer": "Howard Rosenman",
     "year": 1992
   },
   {
@@ -64,35 +84,79 @@
     "year": 1993
   },
   {
-    "producer": "Buzz Feitshans and David Matalon",
+    "producer": "Buzz Feitshans",
     "year": 1994
   },
   {
-    "producer": "Charles Evans and Alan Marshall",
+    "producer": "David Matalon",
+    "year": 1994
+  },
+  {
+    "producer": "Charles Evans",
     "year": 1995
   },
   {
-    "producer": "Andrew Bergman and Mike Lobell",
+    "producer": "Alan Marshall",
+    "year": 1995
+  },
+  {
+    "producer": "Andrew Bergman",
     "year": 1996
   },
   {
-    "producer": "Kevin Costner, Steve Tisch and Jim Wilson",
+    "producer": "Mike Lobell",
+    "year": 1996
+  },
+  {
+    "producer": "Kevin Costner",
     "year": 1997
   },
   {
-    "producer": "Ben Myron and Joe Eszterhas",
+    "producer": "Steve Tisch",
+    "year": 1997
+  },
+  {
+    "producer": "Jim Wilson",
+    "year": 1997
+  },
+  {
+    "producer": "Ben Myron",
     "year": 1998
   },
   {
-    "producer": "Jon Peters and Barry Sonnenfeld",
+    "producer": "Joe Eszterhas",
+    "year": 1998
+  },
+  {
+    "producer": "Jon Peters",
     "year": 1999
   },
   {
-    "producer": "Jonathan D. Krane, Elie Samaha and John Travolta",
+    "producer": "Barry Sonnenfeld",
+    "year": 1999
+  },
+  {
+    "producer": "Jonathan D. Krane",
     "year": 2000
   },
   {
-    "producer": "Larry Brezner, Howard Lapides and Lauren Lloyd",
+    "producer": "Elie Samaha",
+    "year": 2000
+  },
+  {
+    "producer": "John Travolta",
+    "year": 2000
+  },
+  {
+    "producer": "Larry Brezner",
+    "year": 2001
+  },
+  {
+    "producer": "Howard Lapides",
+    "year": 2001
+  },
+  {
+    "producer": "Lauren Lloyd",
     "year": 2001
   },
   {
@@ -100,55 +164,191 @@
     "year": 2002
   },
   {
-    "producer": "Martin Brest and Casey Silver",
+    "producer": "Martin Brest",
     "year": 2003
   },
   {
-    "producer": "Denise Di Novi and Edward McDonnell",
+    "producer": "Casey Silver",
+    "year": 2003
+  },
+  {
+    "producer": "Denise Di Novi",
     "year": 2004
   },
   {
-    "producer": "John Mallory Asher, BJ Davis, Rod Hamilton, Kimberley Kates, Michael Manasseri, Jenny McCarthy and Trent Walford",
+    "producer": "Edward McDonnell",
+    "year": 2004
+  },
+  {
+    "producer": "John Mallory Asher",
     "year": 2005
   },
   {
-    "producer": "Mario Kassar, Joel B. Michaels and Andrew G. Vajna",
+    "producer": "BJ Davis",
+    "year": 2005
+  },
+  {
+    "producer": "Rod Hamilton",
+    "year": 2005
+  },
+  {
+    "producer": "Kimberley Kates",
+    "year": 2005
+  },
+  {
+    "producer": "Michael Manasseri",
+    "year": 2005
+  },
+  {
+    "producer": "Jenny McCarthy",
+    "year": 2005
+  },
+  {
+    "producer": "Trent Walford",
+    "year": 2005
+  },
+  {
+    "producer": "Mario Kassar",
     "year": 2006
   },
   {
-    "producer": "Gary Barber, Michael DeLuca and Mike Myers",
+    "producer": "Joel B. Michaels",
+    "year": 2006
+  },
+  {
+    "producer": "Andrew G. Vajna",
+    "year": 2006
+  },
+  {
+    "producer": "Gary Barber",
     "year": 2008
   },
   {
-    "producer": "Lorenzo di Bonaventura, Ian Bryce, Tom DeSanto and Don Murphy",
+    "producer": "Michael DeLuca",
+    "year": 2008
+  },
+  {
+    "producer": "Mike Myers",
+    "year": 2008
+  },
+  {
+    "producer": "Lorenzo di Bonaventura",
     "year": 2009
   },
   {
-    "producer": "Frank Marshall, Kathleen Kennedy, Sam Mercer and M. Night Shyamalan",
+    "producer": "Ian Bryce",
+    "year": 2009
+  },
+  {
+    "producer": "Tom DeSanto",
+    "year": 2009
+  },
+  {
+    "producer": "Don Murphy",
+    "year": 2009
+  },
+  {
+    "producer": "Frank Marshall",
     "year": 2010
   },
   {
-    "producer": "Todd Garner, Jack Giarraputo and Adam Sandler",
+    "producer": "Kathleen Kennedy",
+    "year": 2010
+  },
+  {
+    "producer": "Sam Mercer",
+    "year": 2010
+  },
+  {
+    "producer": "M. Night Shyamalan",
+    "year": 2010
+  },
+  {
+    "producer": "Todd Garner",
     "year": 2011
   },
   {
-    "producer": "Wyck Godfrey, Stephenie Meyer and Karen Rosenfelt",
+    "producer": "Jack Giarraputo",
+    "year": 2011
+  },
+  {
+    "producer": "Adam Sandler",
+    "year": 2011
+  },
+  {
+    "producer": "Wyck Godfrey",
     "year": 2012
   },
   {
-    "producer": "Peter Farrelly, Ryan Kavanaugh, John Penotti and Charles B. Wessler",
+    "producer": "Stephenie Meyer",
+    "year": 2012
+  },
+  {
+    "producer": "Karen Rosenfelt",
+    "year": 2012
+  },
+  {
+    "producer": "Peter Farrelly",
     "year": 2013
   },
   {
-    "producer": "Darren Doane, Raphi Henley, Amanda Rosser and David Shannon",
+    "producer": "Ryan Kavanaugh",
+    "year": 2013
+  },
+  {
+    "producer": "John Penotti",
+    "year": 2013
+  },
+  {
+    "producer": "Charles B. Wessler",
+    "year": 2013
+  },
+  {
+    "producer": "Darren Doane",
     "year": 2014
   },
   {
-    "producer": "Simon Kinberg, Matthew Vaughn, Hutch Parker, Robert Kulzer and Gregory Goodman",
+    "producer": "Raphi Henley",
+    "year": 2014
+  },
+  {
+    "producer": "Amanda Rosser",
+    "year": 2014
+  },
+  {
+    "producer": "David Shannon",
+    "year": 2014
+  },
+  {
+    "producer": "Simon Kinberg",
     "year": 2015
   },
   {
-    "producer": "Michael De Luca, Dana Brunetti and E. L. James",
+    "producer": "Matthew Vaughn",
+    "year": 2015
+  },
+  {
+    "producer": "Hutch Parker",
+    "year": 2015
+  },
+  {
+    "producer": "Robert Kulzer",
+    "year": 2015
+  },
+  {
+    "producer": "Gregory Goodman",
+    "year": 2015
+  },
+  {
+    "producer": "Michael De Luca",
+    "year": 2015
+  },
+  {
+    "producer": "Dana Brunetti",
+    "year": 2015
+  },
+  {
+    "producer": "E. L. James",
     "year": 2015
   },
   {
@@ -160,11 +360,35 @@
     "year": 2017
   },
   {
-    "producer": "Will Ferrell, Adam McKay, Jimmy Miller and Clayton Townsend",
+    "producer": "Will Ferrell",
     "year": 2018
   },
   {
-    "producer": "Debra Hayward, Tim Bevan, Eric Fellner, and Tom Hooper",
+    "producer": "Adam McKay",
+    "year": 2018
+  },
+  {
+    "producer": "Jimmy Miller",
+    "year": 2018
+  },
+  {
+    "producer": "Clayton Townsend",
+    "year": 2018
+  },
+  {
+    "producer": "Debra Hayward",
+    "year": 2019
+  },
+  {
+    "producer": "Tim Bevan",
+    "year": 2019
+  },
+  {
+    "producer": "Eric Fellner",
+    "year": 2019
+  },
+  {
+    "producer": "and Tom Hooper",
     "year": 2019
   }
 ]

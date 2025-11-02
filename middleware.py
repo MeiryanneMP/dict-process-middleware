@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import os
+import re
 
 
 def read_csv(file_path):
@@ -61,13 +62,24 @@ def process_csv_data(df):
     print(df_winners[[year_col, producer_col, winner_col]])
 
     for _, row in df_winners.iterrows():
-        winner = row[producer_col]
+        producers = row[producer_col]
         year = row[year_col]
 
-        winners.append({
-            "producer": winner,
-            "year": int(year) if year else None
-        })
+        producer_list = []
+        for producer in producers.split(','):
+            producer = producer.strip()
+
+            if 'and' in producer:
+                producer_list.extend([p.strip()
+                                     for p in re.split(r'\s+and\s+', producer)])
+            else:
+                producer_list.append(producer)
+
+        for producer in producer_list:
+            winners.append({
+                "producer": producer,
+                "year": int(year) if year else None
+            })
 
     return winners
 
