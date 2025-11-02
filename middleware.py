@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import os
 import re
+import requests
 
 
 def read_csv(file_path):
@@ -9,7 +10,6 @@ def read_csv(file_path):
         raise FileNotFoundError(f"Arquivo não encontrado: {file_path}")
 
     df = pd.read_csv(file_path, delimiter=";")
-
     print("Colunas encontradas:", df.columns.tolist())
     return df
 
@@ -84,13 +84,43 @@ def process_csv_data(df):
     return winners
 
 
+def send_to_api(data):
+    if not data:
+        print("Erro: Nenhum dado para enviar")
+        return
+
+    api_url = 'http://localhost:8080/producers/add'
+    headers = {'Content-Type': 'application/json'}
+
+    try:
+        response = requests.post(api_url, json=data, headers=headers)
+
+        if response.status_code == 200:
+            print("Resposta da API:", response)
+        else:
+            print(
+                f"Erro ao enviar dados para a API. Status code: {response.status_code}")
+            print("Resposta da API:", response)
+
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao se conectar à API: {str(e)}")
+
+
 def main():
     file_path = 'data/movielist.csv'
-    df = read_csv(file_path)
-    winners_data = process_csv_data(df)
-    print(json.dumps(winners_data, indent=2))
-    with open('winners.json', 'w', encoding='utf-8') as json_file:
-        json.dump(winners_data, json_file, ensure_ascii=False, indent=2)
+
+    try:
+        df = read_csv(file_path)
+        winners_data = process_csv_data(df)
+        print(json.dumps(winners_data, indent=2))
+
+        with open('winners.json', 'w', encoding='utf-8') as json_file:
+            json.dump(winners_data, json_file, ensure_ascii=False, indent=2)
+
+        send_to_api(winners_data)
+
+    except FileNotFoundError as e:
+        print(str(e))
 
 
 if __name__ == "__main__":
