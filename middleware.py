@@ -53,8 +53,20 @@ def process_csv_data(df):
     df = df[(df[year_col] != '') & (
         df[producer_col] != '') & (df[winner_col] != '')]
 
+    value_winner_mapping = {
+        'winner_value': ['yes', 'sim', 'ok', 'win']
+    }
+
+    def map_winner(value):
+        for val in value_winner_mapping[value]:
+            if val in df.values:
+                return val
+        return None
+
+    winner_value = map_winner('winner_value')
+
     df_winners = df[
-        (df[winner_col].str.lower() == 'yes') |
+        (df[winner_col].str.lower() == winner_value) |
         (df[producer_col].str.lower().apply(
             lambda x: df[winner_col].str.contains(x, case=False).any()))
     ]
