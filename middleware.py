@@ -18,9 +18,9 @@ def process_csv_data(df):
     winners = []
 
     column_mapping = {
-        'year': ['year', 'Ano', 'ano'],
-        'producers': ['producers', 'name', 'nomes', 'studio'],
-        'winner': ['winner', 'vencedor', 'vencedor_ano', 'won']
+        'year': ['year'],
+        'producers': ['producers'],
+        'winner': ['winner']
     }
 
     def map_column(column):
@@ -54,7 +54,7 @@ def process_csv_data(df):
         df[producer_col] != '') & (df[winner_col] != '')]
 
     value_winner_mapping = {
-        'winner_value': ['yes', 'sim', 'ok', 'win']
+        'winner_value': ['yes']
     }
 
     def map_winner(value):
@@ -101,7 +101,7 @@ def send_to_api(data):
         print("Erro: Nenhum dado para enviar")
         return
 
-    api_url = 'http://localhost:8080/producers/add'
+    api_url = ''
     headers = {'Content-Type': 'application/json'}
 
     try:
